@@ -1,8 +1,9 @@
 package kr.co.won.designpatternstudy.singleton;
 
+import java.io.Serializable;
 import java.util.Set;
 
-public class Settings {
+public class Settings implements Serializable {
 
     private static Settings settings;
     private static final Settings EASY_INIT = new Settings();
@@ -74,5 +75,11 @@ public class Settings {
 
     public static Settings getStaticInstance() {
         return SettingHolder.INSTANCE;
+    }
+
+    // 역직렬화를 할때, 동일한 객체를 반환하기 위해서 사용하는 것
+    // 이 method 는 역직렬화를 할 때, 사용이 되는 method 이다.
+    protected Object readResolve() {
+        return getStaticInstance();
     }
 }
