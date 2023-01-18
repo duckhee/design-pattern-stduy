@@ -1,7 +1,6 @@
-package kr.co.won.designpatternstudy.singleton;
+package kr.co.won.designpatternstudy._01_singleton;
 
 import java.io.Serializable;
-import java.util.Set;
 
 public class Settings implements Serializable {
 

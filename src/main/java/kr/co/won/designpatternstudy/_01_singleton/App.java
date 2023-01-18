@@ -1,4 +1,4 @@
-package kr.co.won.designpatternstudy.singleton;
+package kr.co.won.designpatternstudy._01_singleton;
 
 import java.io.*;
 import java.lang.reflect.Constructor;
