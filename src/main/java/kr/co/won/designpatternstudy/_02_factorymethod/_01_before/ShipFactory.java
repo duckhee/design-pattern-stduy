@@ -27,7 +27,7 @@ public class ShipFactory  {
         if (name.equalsIgnoreCase("whiteship")) {
             ship.setColor("whiteship");
         } else if (name.equalsIgnoreCase("blackship")) {
-            ship.setColor("black");
+            ship.setColor("");
         }
 
         // notify
