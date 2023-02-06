@@ -1,1 +1,0 @@
-package kr.co.won.designpatternstudy._02_factorymethod;

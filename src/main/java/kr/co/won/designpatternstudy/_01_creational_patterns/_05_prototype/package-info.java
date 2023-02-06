@@ -1,0 +1,1 @@
+package kr.co.won.designpatternstudy._01_creational_patterns._05_prototype;

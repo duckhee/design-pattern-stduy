@@ -7,7 +7,7 @@
         <constructor-arg value="hello"/>
     </bean>
     <bean id="whiteship"
-          class="kr.co.won.designpatternstudy._03_abstractfactory._03_java.ShipFactory"/>
+          class="kr.co.won.designpatternstudy._01_creational_patterns._03_abstractfactory._03_java.ShipFactory"/>
 
 
 </beans>
