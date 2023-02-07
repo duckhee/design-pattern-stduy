@@ -1,7 +1,6 @@
 package kr.co.won.designpatternstudy._09_decorator._03_java;
 
-import javax.servlet.http.HttpServletRequestWrapper;
-import javax.servlet.http.HttpServletResponseWrapper;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -24,8 +23,8 @@ public class DecoratorInJava {
 
 
         // 서블릿 요청 또는 응답 랩퍼
-        HttpServletRequestWrapper requestWrapper;
-        HttpServletResponseWrapper responseWrapper;
+//        HttpServletRequestWrapper requestWrapper;
+//        HttpServletResponseWrapper responseWrapper;
     }
 
     private static class Book {
