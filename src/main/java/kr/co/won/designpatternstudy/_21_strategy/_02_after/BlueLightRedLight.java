@@ -1,4 +1,4 @@
-package kr.co.won.designpatternstudy.strategy._02_after;
+package kr.co.won.designpatternstudy._21_strategy._02_after;
 
 // context로 남아 있는 class이다.
 public class BlueLightRedLight {

@@ -1,4 +1,4 @@
-package kr.co.won.designpatternstudy.strategy._01_before;
+package kr.co.won.designpatternstudy._21_strategy._01_before;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package kr.co.won.designpatternstudy.strategy._02_after;
+package kr.co.won.designpatternstudy._21_strategy._02_after;
 
 public class NormalSpeed implements Speed{
 

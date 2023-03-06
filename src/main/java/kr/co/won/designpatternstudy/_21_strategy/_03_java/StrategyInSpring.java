@@ -1,4 +1,4 @@
-package kr.co.won.designpatternstudy.strategy._03_java;
+package kr.co.won.designpatternstudy._21_strategy._03_java;
 
 import org.springframework.beans.factory.xml.BeanDefinitionParser;
 import org.springframework.cache.CacheManager;
