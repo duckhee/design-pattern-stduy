@@ -1,1 +1,0 @@
-package kr.co.won.designpatternstudy._17_mediator;
